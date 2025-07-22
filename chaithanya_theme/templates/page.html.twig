@@ -1,0 +1,36 @@
+{% if page.top_banner %}
+  <div id="top-banner" class="bg-primary text-white text-center py-2">
+    {{ page.top_banner }}
+  </div>
+{% endif %}
+
+<header id="header" class="container d-flex justify-content-between align-items-center py-3">
+  <div class="site-logo-title">
+    {{ page.header }}
+  </div>
+  <nav id="primary-menu">
+    {{ page.primary_menu }}
+  </nav>
+</header>
+
+<main class="container my-4">
+  <section id="projects">
+    {{ page.projects }}
+  </section>
+
+  <section id="testimonials" class="mt-5">
+    {{ page.testimonials }}
+  </section>
+
+  <section id="features" class="mt-5">
+    {{ page.features }}
+  </section>
+
+  <section id="main-content">
+    {{ page.content }}
+  </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-4">
+  {{ page.footer }}
+</footer>

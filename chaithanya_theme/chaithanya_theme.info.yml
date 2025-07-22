@@ -1,0 +1,16 @@
+name: Chaithanya Theme
+type: theme
+core_version_requirement: ^10
+base theme: classy
+description: 'Custom FOSSEE-style responsive theme'
+libraries:
+  - chaithanya_theme/global-styling
+regions:
+  top_banner: 'Top Banner'
+  header: 'Header'
+  primary_menu: 'Navigation'
+  projects: 'Project Section'
+  testimonials: 'Testimonial Section'
+  features: 'Feature Section'
+  content: 'Content'
+  footer: 'Footer'
